@@ -1,0 +1,263 @@
+.action-button {
+  background-color: rgb(202, 122, 122);
+  border-radius: 16px;
+  border: 1px dotted brown;
+  color: white;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-style: italic;
+  font-weight: bold;
+  height: 30px;
+  margin-bottom: 10px;
+  width: 110px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  margin: auto;
+  width: 300px;
+}
+
+.dropdown-content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+select {
+  background-color: lavender;
+  border-radius: 7px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.exit-button {
+  background-color: rgb(214, 214, 230);
+  border-radius: 25px;
+  font-size: 1em;
+  font-weight: bold;
+  height: 40px;
+  width: 50px;
+}
+
+.game-afterend {
+  background-color: #35fdff;
+  border: 1px solid #35fdff;
+  color: black;
+  margin-left: 10px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+}
+
+.game-space {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  width: 50%;
+}
+
+.head-content {
+  color: rgb(0, 43, 80);
+  flex: 1;
+  font-size: 2em;
+  font-style: italic;
+  padding-left: 16%;
+  text-align: center;
+}
+
+.headingof-playermove {
+  margin-bottom: 0;
+}
+
+.highlight-user {
+  border: 2px solid rgb(4, 4, 136);
+  border-radius: 10px;
+}
+
+.horizontal-line {
+  border-bottom: 3px solid black;
+}
+
+.logout-btn {
+  margin-bottom: 68%;
+}
+.modeof-game {
+  display: block;
+}
+
+.nameOfThePlayer {
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+}
+
+body {
+  background-image: url("/ASSETS/background.jpg");
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.player-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100px;
+}
+
+.player-detail {
+  display: flex;
+}
+
+.player-move {
+  align-self: center;
+  border: 2px dashed yellowgreen;
+  color: brown;
+  height: 170px;
+  margin-left: 10px;
+  width: 130px;
+}
+
+.player-movecontent {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  color: yellowgreen;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.player-movecontent > ul {
+  padding-left: 20px;
+}
+
+.player-name {
+  display: flex;
+  height: 70px;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.player-score {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+option {
+  font-weight: bold;
+}
+
+.quit-button {
+  visibility: hidden;
+}
+
+.replay-button {
+  background-color: yellowgreen;
+  align-self: center;
+  border: transparent;
+}
+
+.replay-note {
+  align-self: center;
+  color: red;
+  margin-bottom: 7px;
+  width: 150px;
+}
+
+.score-area {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 70px;
+  justify-content: space-around;
+}
+
+.score-box {
+  display: none;
+  border-radius: 1px solid black;
+  height: 30px;
+  text-align: center;
+  width: 70px;
+}
+
+.symbol {
+  margin: 0;
+}
+
+.tile-box {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  color: pink;
+  font-size: 50px;
+  height: 97px;
+  width: 97px;
+}
+
+.tile-number {
+  align-self: flex-end;
+  color: darkcyan;
+  font-size: 12px;
+  width: 30px;
+}
+
+.top-heading {
+  align-items: center;
+  display: flex;
+}
+
+.userchoice {
+  display: flex;
+  justify-content: space-between;
+  width: 145px;
+}
+
+.userchoice-button {
+  background-color: #35fdff;
+  border-radius: 16px;
+  border: 1px solid #35fdff;
+  color: black;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-style: italic;
+  font-weight: bold;
+  height: 30px;
+  margin-bottom: 10px;
+  width: 60px;
+}
+
+.vertical-line {
+  border-right: 3px solid black;
+}
+
+.winner {
+  background-color: rgb(221, 218, 218);
+  color: green;
+}
+
+.winner-message {
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  position: fixed;
+  top: 49%;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  flex-direction: column;
+  font-size: 1.2em;
+  font-weight: 700;
+  justify-content: center;
+  opacity: 0.8;
+  width: 50%;
+  z-index: 1;
+}
