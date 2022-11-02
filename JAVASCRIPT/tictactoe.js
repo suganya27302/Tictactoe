@@ -16,6 +16,7 @@ let newGame = document.getElementById("new-game");
 
 let tileNumber;
 let gameMode;
+let gameType;
 let indication;
 let toggler;
 let player1;
@@ -74,7 +75,7 @@ replayButton.addEventListener("click", () => {
 /* If the user clicks the stop replay button, it resets the board. */
 stopReplay.addEventListener("click", () => {
   indication = false;
-  resetTheGameArea();
+  alert("Replay Stoped!");
 });
 
 /* If the user clicks the newgame  button,
