@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="/CSS/tictactoe.css" />
+  </head>
+  <body>
+    <div class="game-container" id="game-container">
+      <div id="player-movecontent" class="player-movecontent">
+        <button
+          class="action-button logout-btn"
+          id="logout"
+          title="Exit to the home page"
+        >
+          Log out
+        </button>
+        <h3 class="headingof-playermove">Player's Move</h3>
+        <ul
+          class="player-move"
+          title="Box contains the moves of the players"
+        ></ul>
+        <small class="replay-note">*You can replay only the current game</small>
+        <button
+          class="action-button replay-button"
+          id="replay"
+          title="You can replay only the current game"
+        >
+          Replay
+        </button>
+        <button
+          class="action-button replay-button"
+          id="stop-replay"
+          title="Stop the replay of the current game"
+        >
+          Stop Replay
+        </button>
+        <button class="action-button replay-button" id="new-game">
+          New Game
+        </button>
+      </div>
+      <div class="game-space" id="game-space">
+        <div class="top-heading">
+          <h1 class="head-content">Tic Tac Toe</h1>
+          <button
+            class="action-button quit-button"
+            id="quit-button"
+            title="Exit to the start page"
+          >
+            Quit
+          </button>
+        </div>
+        <div class="dropdown-content">
+          <select id="number-of-players" required>
+            <option value="none" selected disabled hidden>
+              Choose no of Player
+            </option>
+            <option>One Player</option>
+            <option>Two Player</option>
+          </select>
+          <select class="modeof-game" id="modeof-game" required>
+            <option value="none" selected disabled hidden>Select a mode</option>
+            <option>Easy</option>
+            <option>Medium</option>
+            <option>Hard</option>
+          </select>
+        </div>
+        <div class="player-name" id="player-name"></div>
+        <div id="board" class="board"></div>
+        <div class="player-score" id="player-score">
+          <div class="score-area">
+            <p class="nameOfThePlayer" id="player1name"></p>
+            <input
+              type="text"
+              value="0"
+              class="score-box"
+              id="player1score"
+              disabled
+            />
+          </div>
+          <div class="score-area">
+            <p class="nameOfThePlayer" id="player2name"></p>
+            <input
+              type="text"
+              value="0"
+              class="score-box"
+              id="player2score"
+              disabled
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/JAVASCRIPT/tictactoe.js"></script>
+  <script src="/JAVASCRIPT/userdata.js"></script>
+</html>

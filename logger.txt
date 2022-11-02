@@ -1,0 +1,8 @@
+
+Thu Oct 27 2022 2:22:20 PM Request body argument values are null in http://127.0.0.1/signup
+Thu Oct 27 2022 2:29:59 PM usermail is not defined in http://127.0.0.1/signup
+Thu Oct 27 2022 3:31:38 PM Request body argument values are null in http://127.0.0.1/signup
+Thu Oct 27 2022 3:31:52 PM Request body argument values are null in http://127.0.0.1/signup
+Thu Oct 27 2022 3:40:38 PM res is not defined in http://127.0.0.1/signup
+Thu Oct 27 2022 3:41:06 PM res is not defined in http://127.0.0.1/signup
+Thu Oct 27 2022 4:44:48 PM Request body argument values are null in http://127.0.0.1/login

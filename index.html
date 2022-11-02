@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tictactoe</title>
+    <link rel="stylesheet" href="CSS/index.css" />
+  </head>
+  <body>
+    <div class="front-content">
+      <div class="home-content">
+        <img src="/ASSETS/tictactoe.jpg" class="tictactoe-img" />
+        <div class="userchoice">
+          <button class="trigger action-button" id="trigger-login">
+            LOGIN
+          </button>
+          <div class="modal" id="login">
+            <div class="modal-content">
+              <span class="close-button" id="login-close">&times;</span>
+              <h2>LOGIN</h2>
+              <div class="login-info">
+                <div>
+                  <label for="name">Enter Username : </label>
+                  <input
+                    type="text"
+                    id="username-login"
+                    maxlength="10"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="password">Enter Password : </label>
+                  <input type="password" id="password-login" required />
+                </div>
+                <button id="login-submit" onclick="isUserValid()">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+          <button class="trigger action-button" id="trigger-signup">
+            SIGN UP
+          </button>
+          <div class="modal" id="signup">
+            <div class="modal-content">
+              <span class="close-button" id="signup-close">&times;</span>
+              <h2>SIGN UP</h2>
+              <div class="signup-info">
+                <div class="username-details signup-details">
+                  <label for="username-signup">Enter Username :</label>
+                  <input type="text" id="username-signup" maxlength="8" />
+                </div>
+                <div class="password-info signup-details">
+                  <label for="password-signup">Enter Password : </label>
+                  <input type="password" id="password-signup" />
+                </div>
+                <div class="ensure-info signup-details">
+                  <label for="ensure-password">Confirm Password : </label>
+                  <input type="password" id="ensure-password" />
+                </div>
+                <button id="signup-submit" onclick="validUserDetails()">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/JAVASCRIPT/index.js"></script>
+  <script src="/JAVASCRIPT/userdata.js"></script>
+</html>
